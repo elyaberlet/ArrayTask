@@ -1,9 +1,10 @@
-package org.example.reader;
+package org.example.reader.impl;
 
 import org.example.entity.IntegerArray;
 import org.example.exception.ArrayValidationException;
 import org.example.factory.IntegerArrayFactory;
 import org.example.parser.ArrayParser;
+import org.example.reader.ArrayFileReader;
 import org.example.validator.ArrayValidator;
 
 import java.io.IOException;

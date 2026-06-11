@@ -14,10 +14,7 @@ public class IntegerArray {
 
     private final List<ArrayObserver> observers = new ArrayList<>();
 
-    public IntegerArray(Integer[] array) throws ArrayValidationException {
-        if (array == null) {
-            throw new ArrayValidationException("Array can not be null");
-        }
+    public IntegerArray(Integer[] array) {
         this.array = array.clone();
         this.id = UUID.randomUUID();
     }
@@ -94,7 +91,7 @@ public class IntegerArray {
         observers.remove(observer);
     }
 
-    private void notifyObservers() {
+    private void notifyObservers() throws ArrayValidationException {
         for (ArrayObserver observer : observers) {
             observer.onArrayChanged(this);
         }
