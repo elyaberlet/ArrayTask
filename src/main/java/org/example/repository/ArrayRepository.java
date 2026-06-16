@@ -2,7 +2,9 @@ package org.example.repository;
 
 import org.example.entity.IntegerArray;
 import org.example.exception.ArrayValidationException;
+import org.example.specification.ArraySpecification;
 
+import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
@@ -20,4 +22,8 @@ public interface ArrayRepository {
     List<IntegerArray> findAll();
 
     int size();
+
+    List<IntegerArray> findBySpecification(ArraySpecification specification);
+
+    List<IntegerArray> findAllSorted(Comparator<IntegerArray> comparator);
 }

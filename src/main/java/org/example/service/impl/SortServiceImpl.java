@@ -4,9 +4,9 @@ import org.example.entity.IntegerArray;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.example.exception.ArrayValidationException;
-import org.example.service.SortService;
+import org.example.service.ArraySortService;
 
-public class SortServiceImpl implements SortService {
+public class SortServiceImpl implements ArraySortService {
 
     private static final Logger logger = LogManager.getLogger(SortServiceImpl.class);
 

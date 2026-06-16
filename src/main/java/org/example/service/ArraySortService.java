@@ -3,7 +3,7 @@ package org.example.service;
 import org.example.entity.IntegerArray;
 import org.example.exception.ArrayValidationException;
 
-public interface SortService {
+public interface ArraySortService {
 
     void sortBubble(IntegerArray array) throws ArrayValidationException;
 

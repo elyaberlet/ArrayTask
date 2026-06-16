@@ -28,3 +28,250 @@
 2026-06-09 15:42:35.816 [INFO ] SortServiceImpl - Insertion sort completed
 2026-06-09 15:42:35.818 [INFO ] FindServiceImpl - Minimum value found: 1
 2026-06-09 15:42:35.820 [INFO ] FindServiceImpl - Maximum value found: 9
+2026-06-14 17:36:04.496 [INFO ] ArrayFileReaderImpl - Reading arrays from file: data/arrays.txt
+2026-06-14 17:36:04.558 [INFO ] ArrayFileReaderImpl - Successfully read 5 arrays from file
+2026-06-14 17:36:04.559 [INFO ] Main - Total arrays read: 5
+2026-06-14 17:36:04.563 [INFO ] Main - Array 1: IntegerArray { array = [1, 2, 3, 4, 5] }
+2026-06-14 17:36:04.564 [INFO ] Main - Array 2: IntegerArray { array = [1, 2, 3, 6, 5, 77] }
+2026-06-14 17:36:04.564 [INFO ] Main - Array 3: IntegerArray { array = [11, 2, 42, 100] }
+2026-06-14 17:36:04.564 [INFO ] Main - Array 4: IntegerArray { array = [5, 10, 15, 20, 25] }
+2026-06-14 17:36:04.564 [INFO ] Main - Array 5: IntegerArray { array = [100, 200, 300, 400, 500] }
+2026-06-14 18:37:51.598 [INFO ] ArrayFileReaderImpl - Reading arrays from file: data/arrays.txt
+2026-06-14 18:37:51.669 [INFO ] ArrayFileReaderImpl - Successfully read 5 arrays from file
+2026-06-14 18:37:51.671 [INFO ] Main - Total arrays read: 5
+2026-06-14 18:37:51.679 [INFO ] Main - Array 1: IntegerArray { array = [1, 2, 3, 4, 5] }
+2026-06-14 18:37:51.679 [INFO ] Main - Array 2: IntegerArray { array = [1, 2, 3, 6, 5, 77] }
+2026-06-14 18:37:51.679 [INFO ] Main - Array 3: IntegerArray { array = [11, 2, 42, 100] }
+2026-06-14 18:37:51.684 [INFO ] Main - Array 4: IntegerArray { array = [5, 10, 15, 20, 25] }
+2026-06-14 18:37:51.684 [INFO ] Main - Array 5: IntegerArray { array = [100, 200, 300, 400, 500] }
+2026-06-14 18:40:31.340 [INFO ] ArrayFileReaderImpl - Reading arrays from file: data/arrays.txt
+2026-06-14 18:40:31.422 [INFO ] ArrayFileReaderImpl - Successfully read 5 arrays from file
+2026-06-14 18:40:31.430 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: cb19fc05-420e-48fe-9f85-dc8a1275d2b0
+2026-06-14 18:40:31.430 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: 7c1e8bdd-9875-4aed-977c-f5b3a1d81f85
+2026-06-14 18:40:31.430 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: a9d5f071-0306-49ea-8e92-c48c1bafafc8
+2026-06-14 18:40:31.432 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: c81c5026-49e9-4c8c-9d81-c908a6d298b3
+2026-06-14 18:40:31.432 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: 34dcfdd6-826d-4a01-b7d6-043c7653b2ec
+2026-06-14 18:40:31.442 [INFO ] FindServiceImpl - Sum of array elements: 155
+2026-06-14 18:40:31.442 [INFO ] FindServiceImpl - Sum of array elements: 1500
+2026-06-14 18:40:31.442 [INFO ] FindServiceImpl - Sum of array elements: 15
+2026-06-14 18:40:31.442 [INFO ] FindServiceImpl - Sum of array elements: 75
+2026-06-14 18:40:31.445 [INFO ] FindServiceImpl - Sum of array elements: 94
+2026-06-14 18:40:31.445 [INFO ] ArrayRepositoryImpl - Found 1 arrays by specification
+2026-06-14 18:40:31.445 [INFO ] FindServiceImpl - Maximum value found: 100
+2026-06-14 18:40:31.447 [INFO ] FindServiceImpl - Maximum value found: 500
+2026-06-14 18:40:31.447 [INFO ] FindServiceImpl - Maximum value found: 5
+2026-06-14 18:40:31.447 [INFO ] FindServiceImpl - Maximum value found: 25
+2026-06-14 18:40:31.447 [INFO ] FindServiceImpl - Maximum value found: 77
+2026-06-14 18:40:31.447 [INFO ] ArrayRepositoryImpl - Found 3 arrays by specification
+2026-06-14 18:40:31.449 [INFO ] FindServiceImpl - Minimum value found: 2
+2026-06-14 18:40:31.451 [INFO ] FindServiceImpl - Minimum value found: 100
+2026-06-14 18:40:31.451 [INFO ] FindServiceImpl - Minimum value found: 1
+2026-06-14 18:40:31.451 [INFO ] FindServiceImpl - Minimum value found: 5
+2026-06-14 18:40:31.451 [INFO ] FindServiceImpl - Minimum value found: 1
+2026-06-14 18:40:31.452 [INFO ] ArrayRepositoryImpl - Found 3 arrays by specification
+2026-06-14 18:40:31.452 [INFO ] ArrayRepositoryImpl - Found 1 arrays by specification
+2026-06-14 18:40:31.452 [INFO ] ArrayRepositoryImpl - Sorted 5 arrays
+2026-06-14 18:40:31.456 [INFO ] ArrayRepositoryImpl - Sorted 5 arrays
+2026-06-14 18:40:31.458 [INFO ] ArrayRepositoryImpl - Sorted 5 arrays
+2026-06-14 18:40:31.462 [INFO ] ArrayRepositoryImpl - Array removed: cb19fc05-420e-48fe-9f85-dc8a1275d2b0
+2026-06-14 18:49:50.086 [INFO ] ArrayFileReaderImpl - Reading arrays from file: data/arrays.txt
+2026-06-14 18:49:50.147 [INFO ] ArrayFileReaderImpl - Successfully read 5 arrays from file
+2026-06-14 18:49:50.147 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: 1f0d6a0c-d0e3-4fad-87a5-4747167ff378
+2026-06-14 18:49:50.158 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: e7786199-4413-4ce3-af01-13f53fceec47
+2026-06-14 18:49:50.158 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: e16fa2e7-add4-4086-8383-7ae071405090
+2026-06-14 18:49:50.158 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: c39f0aa3-5bce-4b45-921e-e415b9c762c5
+2026-06-14 18:49:50.158 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: b04451e0-e314-4b1f-82ab-0edc91e8c842
+2026-06-14 18:49:50.170 [INFO ] ArrayRepositoryImpl - Found 1 arrays by specification
+2026-06-14 18:49:50.178 [INFO ] ArrayRepositoryImpl - Found 3 arrays by specification
+2026-06-14 18:49:50.180 [INFO ] ArrayRepositoryImpl - Found 3 arrays by specification
+2026-06-14 18:49:50.180 [INFO ] ArrayRepositoryImpl - Found 1 arrays by specification
+2026-06-14 18:49:50.180 [INFO ] ArrayRepositoryImpl - Sorted 5 arrays
+2026-06-14 18:49:50.188 [INFO ] ArrayRepositoryImpl - Sorted 5 arrays
+2026-06-14 18:49:50.188 [INFO ] ArrayRepositoryImpl - Sorted 5 arrays
+2026-06-14 18:49:50.188 [INFO ] ArrayRepositoryImpl - Array removed: 1f0d6a0c-d0e3-4fad-87a5-4747167ff378
+2026-06-15 21:46:12.435 [ERROR] ArrayObserverImpl - Array is null in observer
+2026-06-15 23:08:39.290 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: a4ee8a0d-72f3-44c2-8a3a-7a7fc6529f65
+2026-06-15 23:08:39.314 [ERROR] ArrayRepositoryImpl - Cannot add null array
+2026-06-15 23:08:39.320 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: 23cbb80b-eb49-483f-b9fc-483ae00d539d
+2026-06-15 23:08:39.345 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: dd9dd5dc-e9e7-4c26-84e8-68e4bd641386
+2026-06-15 23:08:39.345 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: a06e34a8-5c64-4100-aca7-53649df3419a
+2026-06-15 23:08:39.345 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: de4b9b5c-5c8c-40d4-8711-61496ab09ebb
+2026-06-15 23:08:39.347 [INFO ] ArrayRepositoryImpl - Found 3 arrays by specification
+2026-06-15 23:08:39.360 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: 3aaf6a0b-34e6-47c8-96c5-b21ef2a2b97d
+2026-06-15 23:08:39.360 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: 6f8967d2-a5a1-44f4-8b3e-4e4ad46ee986
+2026-06-15 23:08:39.360 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: c699fac8-aa8a-4518-9dce-a8aafc87a58a
+2026-06-15 23:08:39.376 [INFO ] ArrayRepositoryImpl - Sorted 8 arrays
+2026-06-15 23:08:39.380 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: 9c181814-a760-40e6-a750-760d5452789e
+2026-06-15 23:08:39.385 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: 4444312b-b078-48cb-9bce-4755af81fa90
+2026-06-15 23:08:39.385 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: 68230ed0-6a88-493c-8b9f-dbcffc667f0e
+2026-06-15 23:08:39.397 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: 3e3fa19d-5437-4df4-9c7a-adef757a77a3
+2026-06-15 23:08:39.397 [INFO ] ArrayRepositoryImpl - Found 0 arrays by specification
+2026-06-15 23:08:39.401 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: d9482644-a808-4630-ac1f-d15ae3138c0b
+2026-06-15 23:08:39.402 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: 413bbabc-6f0e-4c6d-8302-fdaae665ef0e
+2026-06-15 23:08:39.402 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: 282f363e-28c6-4e5f-9aa0-5cc6b2a84476
+2026-06-15 23:08:39.402 [INFO ] ArrayRepositoryImpl - Found 7 arrays by specification
+2026-06-15 23:08:39.409 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: a976d06b-3178-4b33-91e2-547891606b3c
+2026-06-15 23:08:39.413 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: 790596b9-96bb-4e2f-82ef-30c7b3805d5e
+2026-06-15 23:08:39.413 [INFO ] ArrayRepositoryImpl - Found 1 arrays by specification
+2026-06-15 23:08:39.417 [WARN ] ArrayRepositoryImpl - Array with id d0cc3808-af1f-433d-b898-eb8c5d126167 not found
+2026-06-15 23:08:39.422 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: c6c8c164-3d14-4e9d-b178-056d55e3f90e
+2026-06-15 23:08:39.423 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: 67ac447a-561f-4e06-ab59-a1bbeff7b14a
+2026-06-15 23:08:39.423 [INFO ] ArrayRepositoryImpl - Array removed: c6c8c164-3d14-4e9d-b178-056d55e3f90e
+2026-06-15 23:08:39.430 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: bd5da1dc-37b3-4009-a361-0ced0b619c6b
+2026-06-15 23:08:39.430 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: da2c8f0a-3a87-4dab-be44-c80bc6dccd9c
+2026-06-15 23:08:39.430 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: 2efbd244-6e19-4ae2-be60-a45d1020b6fc
+2026-06-15 23:08:39.432 [INFO ] ArrayRepositoryImpl - Sorted 21 arrays
+2026-06-15 23:08:39.444 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: da2bef47-cdd6-4ff5-bc67-08c9cec68b2f
+2026-06-15 23:08:39.444 [WARN ] ArrayRepositoryImpl - Array with id 53ff52f4-eecc-454c-a550-98a8f058c85c not found
+2026-06-15 23:08:39.448 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: e301f390-e909-4dfd-bf80-470956072011
+2026-06-15 23:08:39.448 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: c1969f7c-a371-49da-a1ef-aab2ceb5f490
+2026-06-15 23:08:39.448 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: 797b241a-5f30-423d-9a82-31399a42ce20
+2026-06-15 23:08:39.450 [INFO ] ArrayRepositoryImpl - Found 9 arrays by specification
+2026-06-15 23:08:39.458 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: 383c0423-038a-40f9-8905-267b4197a89a
+2026-06-15 23:08:39.458 [WARN ] ArrayRepositoryImpl - Array with id 383c0423-038a-40f9-8905-267b4197a89a already exists
+2026-06-15 23:10:13.801 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: 7fcfb053-e705-4ed9-b789-557fb087cb83
+2026-06-15 23:10:13.824 [ERROR] ArrayRepositoryImpl - Cannot add null array
+2026-06-15 23:10:13.830 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: a2bdcb38-606d-476a-8c6e-12bab0aaba3d
+2026-06-15 23:10:13.854 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: 817b18f2-a562-4377-99f0-b883ef5681fb
+2026-06-15 23:10:13.854 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: 005c156d-1bc7-4193-939d-10e55bbc8a48
+2026-06-15 23:10:13.854 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: 7961ff7d-154b-483e-baab-953b83ae0e08
+2026-06-15 23:10:13.854 [INFO ] ArrayRepositoryImpl - Found 3 arrays by specification
+2026-06-15 23:10:13.868 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: a7f53745-80ee-42b0-90fa-5ca679a400b4
+2026-06-15 23:10:13.868 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: c25a095d-4d93-4dbf-98a3-7157fe12037e
+2026-06-15 23:10:13.868 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: 5f989863-1dc5-40df-a8f8-5c1b55a60dfe
+2026-06-15 23:10:13.883 [INFO ] ArrayRepositoryImpl - Sorted 8 arrays
+2026-06-15 23:10:13.888 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: 9f7e4dfd-84e3-4f86-aa9c-d18d97ef20e3
+2026-06-15 23:10:13.894 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: 9268249a-bfe3-4136-8c21-6ac860d50c1b
+2026-06-15 23:10:13.894 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: 459f2fbb-30c4-44da-af42-fe9beeab40ec
+2026-06-15 23:10:13.904 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: 9cbc31e0-cfd3-4cf3-9815-8d6aa1a43b25
+2026-06-15 23:10:13.904 [INFO ] ArrayRepositoryImpl - Found 0 arrays by specification
+2026-06-15 23:10:13.907 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: c9b4d1b2-b642-481c-8d66-b2abc30aec70
+2026-06-15 23:10:13.908 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: a607dca3-3021-498a-92af-9e57e7dedbf4
+2026-06-15 23:10:13.908 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: 65357ed4-bea4-41eb-81d7-0d3d1104e619
+2026-06-15 23:10:13.908 [INFO ] ArrayRepositoryImpl - Found 7 arrays by specification
+2026-06-15 23:10:13.917 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: 0ec1b87c-b298-4ed8-b68a-306c1ee84260
+2026-06-15 23:10:13.917 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: 21380ba5-cefe-459c-ba47-5ad7c38d07a1
+2026-06-15 23:10:13.917 [INFO ] ArrayRepositoryImpl - Found 1 arrays by specification
+2026-06-15 23:10:13.923 [WARN ] ArrayRepositoryImpl - Array with id 9a3e21c8-5f2b-48e1-b69e-f16e66842576 not found
+2026-06-15 23:10:13.925 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: 15056d22-626b-4c50-bb65-7dd8ac247a93
+2026-06-15 23:10:13.925 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: fb0a962f-b9dc-4061-a74b-f031d1fbe9a4
+2026-06-15 23:10:13.926 [INFO ] ArrayRepositoryImpl - Array removed: 15056d22-626b-4c50-bb65-7dd8ac247a93
+2026-06-15 23:10:13.933 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: abe26199-48cb-48a0-9c55-df64d87d169f
+2026-06-15 23:10:13.933 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: 4dde74a5-cc01-4319-82e0-979809b548ce
+2026-06-15 23:10:13.933 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: 7bc6fb36-134e-4394-84b0-aaadf4c2a59f
+2026-06-15 23:10:13.934 [INFO ] ArrayRepositoryImpl - Sorted 21 arrays
+2026-06-15 23:10:13.944 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: f0406bc0-9560-4f44-8f8a-22427ca88192
+2026-06-15 23:10:13.945 [WARN ] ArrayRepositoryImpl - Array with id 25b65e0e-167e-4987-b847-0592c789311b not found
+2026-06-15 23:10:13.945 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: 6b2e4944-21c0-43bb-922b-968bf08976c3
+2026-06-15 23:10:13.949 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: 5fed84cd-3205-424e-821c-53143ee6aec3
+2026-06-15 23:10:13.950 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: 8da22609-c5ea-47c2-b9ad-250b3dd0aa51
+2026-06-15 23:10:13.950 [INFO ] ArrayRepositoryImpl - Found 9 arrays by specification
+2026-06-15 23:10:13.959 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: de782e61-0bd1-4bbe-a1a2-f0de9fdfd049
+2026-06-15 23:10:13.959 [WARN ] ArrayRepositoryImpl - Array with id de782e61-0bd1-4bbe-a1a2-f0de9fdfd049 already exists
+2026-06-15 23:11:56.379 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: 33a17fd6-138e-4082-9971-709a32638558
+2026-06-15 23:11:56.403 [ERROR] ArrayRepositoryImpl - Cannot add null array
+2026-06-15 23:11:56.411 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: 211e1dbf-e42d-4acf-89a8-39cdf37401cb
+2026-06-15 23:11:56.438 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: 218a3fbd-d6b6-4201-9d8f-16d5c1fde06b
+2026-06-15 23:11:56.438 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: 8fa60793-5759-4aa4-bc0a-9a87c3a4168f
+2026-06-15 23:11:56.438 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: d6973b88-5d31-423f-8081-ed0571f2be74
+2026-06-15 23:11:56.439 [INFO ] ArrayRepositoryImpl - Found 3 arrays by specification
+2026-06-15 23:11:56.452 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: e5540294-ae3b-45ba-b8b5-50d33417299e
+2026-06-15 23:11:56.452 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: d28fc3d7-5eaf-47c0-bfdf-a63bb1b3e3be
+2026-06-15 23:11:56.452 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: 8d1f779b-d770-4c3e-aeec-58ef075aeee4
+2026-06-15 23:11:56.467 [INFO ] ArrayRepositoryImpl - Sorted 8 arrays
+2026-06-15 23:11:56.473 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: 7eb7375e-7042-4d9b-aadc-4e11754aae9a
+2026-06-15 23:11:56.477 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: cb1b9271-3076-43ba-ac11-88232af5e8c6
+2026-06-15 23:11:56.478 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: 0b47f021-3a45-4154-89b3-3f5b58bdd044
+2026-06-15 23:11:56.487 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: 5d61dde5-d6ed-40ae-a8bd-b64abce7644c
+2026-06-15 23:11:56.487 [INFO ] ArrayRepositoryImpl - Found 0 arrays by specification
+2026-06-15 23:11:56.491 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: dd59b4ab-6047-4df4-a36f-89f24297cab6
+2026-06-15 23:11:56.492 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: b011c37f-bcb3-4490-9d72-24f2128eda22
+2026-06-15 23:11:56.493 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: 53c50bc4-8ca9-4646-bf80-6f7b45e1b5b6
+2026-06-15 23:11:56.494 [INFO ] ArrayRepositoryImpl - Found 7 arrays by specification
+2026-06-15 23:11:56.505 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: bc432dfd-f1cb-4f5b-b3ee-a755359d0b30
+2026-06-15 23:11:56.505 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: 30e8befa-0bb9-45c1-a55f-ffb96d847e12
+2026-06-15 23:11:56.507 [INFO ] ArrayRepositoryImpl - Found 1 arrays by specification
+2026-06-15 23:11:56.511 [WARN ] ArrayRepositoryImpl - Array with id 61bb0c65-3101-42d8-9d02-3380e4527d2a not found
+2026-06-15 23:11:56.514 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: 47b8bb31-c17d-42a8-8851-aded01520fe9
+2026-06-15 23:11:56.515 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: c179b77e-7477-4796-8853-70c5767bb934
+2026-06-15 23:11:56.515 [INFO ] ArrayRepositoryImpl - Array removed: 47b8bb31-c17d-42a8-8851-aded01520fe9
+2026-06-15 23:11:56.523 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: 6fe8ef9e-3959-4fae-ae50-d47b44b4177d
+2026-06-15 23:11:56.523 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: be185eaa-0a16-41f1-8469-84b0173513d0
+2026-06-15 23:11:56.524 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: 5284d0de-dd5f-44f0-8f1e-98b2806f9cf0
+2026-06-15 23:11:56.524 [INFO ] ArrayRepositoryImpl - Sorted 21 arrays
+2026-06-15 23:11:56.535 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: df422cda-0ede-4cce-a10d-4fc9e237d73f
+2026-06-15 23:11:56.537 [WARN ] ArrayRepositoryImpl - Array with id 77c8f2e4-97dd-41a7-a99c-f492f4164976 not found
+2026-06-15 23:11:56.541 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: a694c9f0-da4b-4808-a3a3-f6aa229909ba
+2026-06-15 23:11:56.542 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: ba8d3f23-c6b5-4663-8fdd-6ea38f0c06ab
+2026-06-15 23:11:56.542 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: babba25a-2916-4a03-84bf-07c17c400569
+2026-06-15 23:11:56.543 [INFO ] ArrayRepositoryImpl - Found 9 arrays by specification
+2026-06-15 23:11:56.558 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: a1d65626-790c-4ab0-a2f4-60de2e2d958f
+2026-06-15 23:11:56.559 [WARN ] ArrayRepositoryImpl - Array with id a1d65626-790c-4ab0-a2f4-60de2e2d958f already exists
+2026-06-15 23:15:54.502 [INFO ] FindServiceImpl - Minimum value found: 1
+2026-06-15 23:15:54.504 [INFO ] FindServiceImpl - Maximum value found: 9
+2026-06-15 23:15:54.506 [INFO ] FindServiceImpl - Sum of array elements: 28
+2026-06-15 23:15:54.506 [WARN ] FindServiceImpl - Array is empty, returning empty Optional
+2026-06-15 23:15:54.506 [WARN ] FindServiceImpl - Array is empty, returning empty Optional
+2026-06-15 23:15:54.506 [WARN ] FindServiceImpl - Array is empty, returning empty Optional
+2026-06-15 23:15:54.518 [INFO ] SortServiceImpl - Bubble sort completed
+2026-06-15 23:15:54.522 [INFO ] SortServiceImpl - Insertion sort completed
+2026-06-15 23:16:50.180 [INFO ] SortServiceImpl - No sorting needed
+2026-06-15 23:16:50.203 [INFO ] FindServiceImpl - Maximum value found: 9
+2026-06-15 23:16:50.207 [WARN ] FindServiceImpl - Array is empty, returning empty Optional
+2026-06-15 23:16:50.207 [INFO ] FindServiceImpl - Maximum value found: 42
+2026-06-15 23:16:50.212 [INFO ] FindServiceImpl - Minimum value found: 1
+2026-06-15 23:16:50.212 [WARN ] FindServiceImpl - Array is empty, returning empty Optional
+2026-06-15 23:16:50.213 [INFO ] FindServiceImpl - Minimum value found: 42
+2026-06-15 23:16:50.217 [INFO ] FindServiceImpl - Sum of array elements: 28
+2026-06-15 23:16:50.217 [WARN ] FindServiceImpl - Array is empty, returning empty Optional
+2026-06-15 23:16:50.217 [INFO ] FindServiceImpl - Sum of array elements: 42
+2026-06-15 23:16:50.220 [INFO ] SortServiceImpl - Bubble sort completed
+2026-06-15 23:16:50.225 [INFO ] FindServiceImpl - Average of array elements: 4.666666666666667
+2026-06-15 23:16:50.225 [WARN ] FindServiceImpl - Array is empty, returning empty Optional
+2026-06-15 23:16:50.225 [INFO ] FindServiceImpl - Average of array elements: 42.0
+2026-06-15 23:16:50.229 [INFO ] SortServiceImpl - No sorting needed
+2026-06-15 23:16:50.232 [INFO ] SortServiceImpl - No sorting needed
+2026-06-15 23:16:50.235 [INFO ] SortServiceImpl - Bubble sort completed
+2026-06-15 23:16:50.235 [INFO ] SortServiceImpl - Insertion sort completed
+2026-06-15 23:16:50.238 [INFO ] SortServiceImpl - No sorting needed
+2026-06-15 23:16:50.241 [INFO ] SortServiceImpl - Insertion sort completed
+2026-06-15 23:20:34.844 [INFO ] ArrayFileReaderImpl - Reading arrays from file: non_existent_file.txt
+2026-06-15 23:20:34.847 [ERROR] ArrayFileReaderImpl - File not found: non_existent_file.txt
+2026-06-15 23:20:34.881 [INFO ] ArrayFileReaderImpl - Reading arrays from file: null
+2026-06-15 23:20:34.906 [INFO ] ArrayFileReaderImpl - Reading arrays from file: C:\Users\User\AppData\Local\Temp\test_arrays4935941958737567774.txt
+2026-06-15 23:20:34.910 [INFO ] ArrayFileReaderImpl - Successfully read 2 arrays from file
+2026-06-15 23:20:34.926 [INFO ] ArrayFileReaderImpl - Reading arrays from file: C:\Users\User\AppData\Local\Temp\test_arrays8597817798940889184.txt
+2026-06-15 23:20:34.927 [INFO ] ArrayFileReaderImpl - Successfully read 2 arrays from file
+2026-06-15 23:20:34.933 [INFO ] ArrayFileReaderImpl - Reading arrays from file: C:\Users\User\AppData\Local\Temp\test_arrays6548157097351829428.txt
+2026-06-15 23:20:34.935 [INFO ] ArrayFileReaderImpl - Successfully read 2 arrays from file
+2026-06-15 23:20:34.941 [INFO ] ArrayFileReaderImpl - Reading arrays from file: C:\Users\User\AppData\Local\Temp\test_arrays9444928273963285636.txt
+2026-06-15 23:20:34.941 [INFO ] ArrayFileReaderImpl - Successfully read 0 arrays from file
+2026-06-15 23:20:34.945 [INFO ] ArrayFileReaderImpl - Reading arrays from file: 
+2026-06-15 23:20:34.949 [ERROR] ArrayFileReaderImpl - File not found: non_existent.txt
+2026-06-15 23:22:21.432 [INFO ] ArrayFileReaderImpl - Reading arrays from file: non_existent_file.txt
+2026-06-15 23:22:21.435 [ERROR] ArrayFileReaderImpl - File not found: non_existent_file.txt
+2026-06-15 23:22:21.469 [INFO ] ArrayFileReaderImpl - Reading arrays from file: null
+2026-06-15 23:22:21.502 [INFO ] ArrayFileReaderImpl - Reading arrays from file: C:\Users\User\AppData\Local\Temp\junit8681181725191387730\test.txt
+2026-06-15 23:22:21.507 [INFO ] ArrayFileReaderImpl - Successfully read 2 arrays from file
+2026-06-15 23:22:21.524 [INFO ] ArrayFileReaderImpl - Reading arrays from file: C:\Users\User\AppData\Local\Temp\junit6982244598750161158\test.txt
+2026-06-15 23:22:21.525 [INFO ] ArrayFileReaderImpl - Successfully read 2 arrays from file
+2026-06-15 23:22:21.535 [INFO ] ArrayFileReaderImpl - Reading arrays from file: C:\Users\User\AppData\Local\Temp\junit13498907363413897276\test.txt
+2026-06-15 23:22:21.537 [INFO ] ArrayFileReaderImpl - Successfully read 2 arrays from file
+2026-06-15 23:22:21.544 [INFO ] ArrayFileReaderImpl - Reading arrays from file: C:\Users\User\AppData\Local\Temp\junit6102292826672696256\empty.txt
+2026-06-15 23:22:21.544 [INFO ] ArrayFileReaderImpl - Successfully read 0 arrays from file
+2026-06-15 23:22:21.551 [INFO ] ArrayFileReaderImpl - Reading arrays from file: 
+2026-06-15 23:22:40.252 [INFO ] ArrayFileReaderImpl - Reading arrays from file: data/arrays.txt
+2026-06-15 23:22:40.315 [INFO ] ArrayFileReaderImpl - Successfully read 5 arrays from file
+2026-06-15 23:22:40.321 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: fadeaac3-74b0-4749-ad94-15ccccac39b1
+2026-06-15 23:22:40.321 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: 51229651-7ac6-407f-b1f4-5e2dbb9f475e
+2026-06-15 23:22:40.321 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: 9751ecf7-7671-4b4d-8faa-5bd54bf84dd1
+2026-06-15 23:22:40.321 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: a8cc5c30-5f55-494a-8b4d-65bc8e2832b7
+2026-06-15 23:22:40.322 [INFO ] ArrayRepositoryImpl - Array added and observer subscribed: 72c3bec2-28b7-494c-a1dd-f99d488465d6
+2026-06-15 23:22:40.331 [INFO ] ArrayRepositoryImpl - Found 1 arrays by specification
+2026-06-15 23:22:40.332 [INFO ] ArrayRepositoryImpl - Found 3 arrays by specification
+2026-06-15 23:22:40.334 [INFO ] ArrayRepositoryImpl - Found 3 arrays by specification
+2026-06-15 23:22:40.334 [INFO ] ArrayRepositoryImpl - Found 1 arrays by specification
+2026-06-15 23:22:40.335 [INFO ] ArrayRepositoryImpl - Sorted 5 arrays
+2026-06-15 23:22:40.336 [INFO ] ArrayRepositoryImpl - Sorted 5 arrays
+2026-06-15 23:22:40.340 [INFO ] ArrayRepositoryImpl - Sorted 5 arrays
+2026-06-15 23:22:40.342 [INFO ] ArrayRepositoryImpl - Array removed: fadeaac3-74b0-4749-ad94-15ccccac39b1

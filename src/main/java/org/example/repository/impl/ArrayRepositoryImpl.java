@@ -5,7 +5,10 @@ import org.apache.logging.log4j.Logger;
 import org.example.entity.IntegerArray;
 import org.example.exception.ArrayValidationException;
 import org.example.observer.ArrayObserver;
+import org.example.observer.impl.ArrayObserverImpl;
 import org.example.repository.ArrayRepository;
+import org.example.specification.ArraySpecification;
+import org.example.warehouse.Warehouse;
 import org.example.warehouse.impl.WarehouseImpl;
 
 import java.util.*;
@@ -13,24 +16,32 @@ import java.util.*;
 public class ArrayRepositoryImpl implements ArrayRepository {
 
     private static final Logger logger = LogManager.getLogger(ArrayRepositoryImpl.class);
-    private static final ArrayRepositoryImpl INSTANCE = new ArrayRepositoryImpl();
+    private static ArrayRepositoryImpl instance;
 
     private final Map<UUID, IntegerArray> entityStorage;
-    private final List<ArrayObserver> observers;
-    private final WarehouseImpl warehouse;
+    private final Warehouse warehouse;
+    private final ArrayObserver warehouseObserver;
 
     private ArrayRepositoryImpl() {
         this.entityStorage = new HashMap<>();
-        this.observers = new ArrayList<>();
         this.warehouse = WarehouseImpl.getInstance();
+        this.warehouseObserver = new ArrayObserverImpl(warehouse);
     }
 
     public static ArrayRepositoryImpl getInstance() {
-        return INSTANCE;
+        if (instance == null) {
+            instance = new ArrayRepositoryImpl();
+        }
+        return instance;
     }
 
     @Override
     public void add(IntegerArray array) throws ArrayValidationException {
+        if (array == null) {
+            logger.error("Cannot add null array");
+            throw new ArrayValidationException("Array cannot be null");
+        }
+
         UUID id = array.getId();
 
         if (entityStorage.containsKey(id)) {
@@ -38,13 +49,20 @@ public class ArrayRepositoryImpl implements ArrayRepository {
             throw new ArrayValidationException("Entity already exists");
         }
 
+        array.addObserver(warehouseObserver);
         entityStorage.put(id, array);
         warehouse.updateStats(id, array);
-        logger.info("Array added: {}", id);
+
+        logger.info("Array added and observer subscribed: {}", id);
     }
 
     @Override
     public void update(IntegerArray array) throws ArrayValidationException {
+        if (array == null) {
+            logger.error("Cannot update null array");
+            throw new ArrayValidationException("Array cannot be null");
+        }
+
         UUID id = array.getId();
 
         if (!entityStorage.containsKey(id)) {
@@ -52,16 +70,18 @@ public class ArrayRepositoryImpl implements ArrayRepository {
             throw new ArrayValidationException("Entity not found");
         }
 
+        array.addObserver(warehouseObserver);
         entityStorage.put(id, array);
-        notifyObservers(array);
         warehouse.updateStats(id, array);
+
         logger.info("Array updated: {}", id);
     }
 
     @Override
     public void remove(UUID id) throws ArrayValidationException {
-        if (entityStorage.containsKey(id)) {
-            notifyObservers(entityStorage.get(id));
+        IntegerArray array = entityStorage.get(id);
+
+        if (array != null) {
             entityStorage.remove(id);
             warehouse.removeStats(id);
             logger.info("Array removed: {}", id);
@@ -83,17 +103,23 @@ public class ArrayRepositoryImpl implements ArrayRepository {
         return entityStorage.size();
     }
 
-    public void addObserver(ArrayObserver observer) {
-        observers.add(observer);
-    }
-
-    public void removeObserver(ArrayObserver observer) {
-        observers.remove(observer);
-    }
-
-    private void notifyObservers(IntegerArray array) throws ArrayValidationException {
-        for (ArrayObserver observer : observers) {
-            observer.onArrayChanged(array);
+    @Override
+    public List<IntegerArray> findBySpecification(ArraySpecification specification) {
+        List<IntegerArray> result = new ArrayList<>();
+        for (IntegerArray array : entityStorage.values()) {
+            if (specification.specify(array)) {
+                result.add(array);
+            }
         }
+        logger.info("Found {} arrays by specification", result.size());
+        return result;
+    }
+
+    @Override
+    public List<IntegerArray> findAllSorted(Comparator<IntegerArray> comparator) {
+        List<IntegerArray> sorted = new ArrayList<>(entityStorage.values());
+        sorted.sort(comparator);
+        logger.info("Sorted {} arrays", sorted.size());
+        return sorted;
     }
 }

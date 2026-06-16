@@ -5,7 +5,7 @@ import org.example.exception.ArrayValidationException;
 
 import java.util.Optional;
 
-public interface FindService {
+public interface ArrayFindService {
     Optional<Integer> findMin(IntegerArray array) throws ArrayValidationException;
 
     Optional<Integer> findMax(IntegerArray array) throws ArrayValidationException;

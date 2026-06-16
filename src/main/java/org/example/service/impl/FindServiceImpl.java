@@ -3,13 +3,13 @@ package org.example.service.impl;
 import org.apache.logging.log4j.LogManager;
 import org.example.entity.IntegerArray;
 import org.example.exception.ArrayValidationException;
-import org.example.service.FindService;
+import org.example.service.ArrayFindService;
 
 import org.apache.logging.log4j.Logger;
 
 import java.util.Optional;
 
-public class FindServiceImpl implements FindService {
+public class FindServiceImpl implements ArrayFindService {
 
     private static final Logger logger = LogManager.getLogger(FindServiceImpl.class);
 
